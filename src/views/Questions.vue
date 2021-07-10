@@ -1,12 +1,17 @@
 <template>
     <div>
-        Questions
+        <QuestionListComponent></QuestionListComponent>
     </div>
 </template>
 
 <script>
+    // @ is an alias to /src
+    import QuestionListComponent from '@/components/QuestionListComponent.vue'
     export default {
-        name: "Questions"
+        name: "Questions",
+        components: {
+            QuestionListComponent
+        }
     }
 </script>
 

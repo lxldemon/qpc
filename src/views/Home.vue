@@ -1,7 +1,6 @@
 <template>
   <div>
     <div class="home">
-
     </div>
     <HomeExpertsComponent></HomeExpertsComponent>
   </div>
