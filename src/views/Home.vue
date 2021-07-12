@@ -24,6 +24,6 @@ export default {
     height: 300px;
     margin:-20px;
     background-size: 100% 100%;
-    background: #353b65 url(https://shequ.jb51.net/assets/addons/ask/img/banner.jpg) no-repeat scroll center top;
+    background: #353b65 url('../assets/banner.jpg') no-repeat scroll center top;
   }
 </style>
