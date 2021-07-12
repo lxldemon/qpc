@@ -1,7 +1,7 @@
 <template>
     <div id="QuestionListComponent">
         <div class="category">
-            <el-button-group v-for="(item,i) in categorys">
+            <el-button-group v-for="(item,i) in categorys" :key="i">
                 <el-button type="primary" size="mini" :icon="item.icon"></el-button>
                 <el-button type="primary" size="mini">{{item.name}}</el-button>
                 &nbsp;&nbsp;&nbsp;
