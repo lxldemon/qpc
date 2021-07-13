@@ -29,7 +29,7 @@
 
 <script>
 import { Swiper, SwiperSlide } from "vue-awesome-swiper";
-import "swiper/css/swiper.css";
+import "swiper/swiper-bundle.min.css";
 export default {
   components: {
     Swiper,
