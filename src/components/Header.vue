@@ -5,7 +5,6 @@
                 class="el-menu-demo"
                 mode="horizontal"
                 @select="handleSelect"
-                fix="fix"
                 background-color="#222"
                 text-color="#fff"
                 active-text-color="#ffd04b">

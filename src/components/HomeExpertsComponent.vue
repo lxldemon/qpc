@@ -96,7 +96,7 @@ export default {
   float: left;
   clear: both;
   width: 100%;
-  height: 300px;
+  height: 900px;
   margin: 20px auto;
 }
 .swiper-container {
